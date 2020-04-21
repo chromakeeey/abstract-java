@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="areaText" layoutX="30.0" layoutY="42.0" prefHeight="126.0" prefWidth="200.0" />
+      <Label layoutX="30.0" layoutY="16.0" text="Текстовые файлы" />
+      <TextArea fx:id="videoArea" layoutX="275.0" layoutY="42.0" prefHeight="126.0" prefWidth="200.0" />
+      <Label layoutX="275.0" layoutY="16.0" text="Видео-файлы" />
+      <TextArea fx:id="imageArea" layoutX="512.0" layoutY="45.0" prefHeight="126.0" prefWidth="200.0" />
+      <Label layoutX="512.0" layoutY="19.0" text="Изображение" />
+      <Button layoutX="29.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#text_DialogClick" prefHeight="25.0" prefWidth="200.0" text="Выбрать файл" />
+      <Button layoutX="274.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#video_DialogClick" prefHeight="25.0" prefWidth="200.0" text="Выбрать файл" />
+      <Button layoutX="512.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#image_DialogClick" prefHeight="25.0" prefWidth="200.0" text="Выбрать файл" />
+      <Button layoutX="29.0" layoutY="211.0" mnemonicParsing="false" onMouseClicked="#text_OpenClick" prefHeight="25.0" prefWidth="200.0" text="Прочитать файл" />
+      <Button layoutX="274.0" layoutY="211.0" mnemonicParsing="false" onMouseClicked="#video_OpenClick" prefHeight="25.0" prefWidth="200.0" text="Посмотреть видео" />
+      <Button layoutX="512.0" layoutY="211.0" mnemonicParsing="false" onMouseClicked="#image_OpenClick" prefHeight="25.0" prefWidth="200.0" text="Посмотреть изображение" />
+   </children>
+</AnchorPane>
